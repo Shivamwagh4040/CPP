@@ -1,0 +1,35 @@
+using namespace std;
+#include<iostream>
+
+class Demo
+{
+    public:
+        int A,B;
+        Demo()
+        {
+            A = 0;
+            B = 0;
+        }
+
+        Demo(int i)
+        {
+            A = i;
+            B = 0;
+        }
+
+        Demo(int i, int j)
+        {
+            A = i;
+            B = j;
+        }
+
+};
+
+int main()
+{
+    Demo obj1;
+    Demo obj2(11);
+    Demo obj3(11,21);
+    
+    return 0;
+}
